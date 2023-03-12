@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,300;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 17px; /*equiv à 1rem*/
+}
+    
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:#d3c69c;    
+}
+h1, h2{
+    font-family: lato;
+    
+}
+h1{
+    font-size: 2.1rem;
+    margin: 0;
+    padding: 0;
+    background-color: #bf3a17;   
+    color: #fff;  
+   
+}
+h2{
+    font-size: 1.7rem;
+}
+a{
+    color: red;
+}
+
+aside ul li::before{
+content:'';
+
+}
+footer ul li::before{
+content: '';
+}
+
+a:hover{
+    text-decoration: underline;    
+}
+
+header{
+   
+}
+
+article p{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*class*/
+.align-horiz {    
+    display: block;    
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #ebead8;
+    }
+
+.align-vert {
+    display: flex;
+    flex-direction: column;
+}
+
+.items{
+    list-style-type: none;
+}
+.inputGroup{
+    background-color: #bf3a17;   
+    color: #fff;
+}
+
+/*****************/
+banner p{
+    background-color: #bf3a17;
+}
+
+#primary-nav ul li.btn a{
+color: #000;
+background-color: #ebead8;
+padding: 14px;
+text-decoration: none;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+#primary-nav ul li.btn:hover a{
+    color: red;
+    background-color: white;}  
+
+
+
+/*structures*/
+#content{
+    width: 375px;
+    margin: auto;
+    padding-top: 30px;  
+}
+
+#logo{
+    display: flex;
+    justify-content :space-between;
+    align-items:center;    
+    flex-direction: column;
+}
+
+#banner{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+
+}
+#titre p{
+    text-align: center;
+}
+#titre img{
+    align-items: center;
+}
+
+#titre p:nth-child(1){
+color:aquamarine;
+font-size: 30px;
+}
+
+#titre p:nth-child(2){
+color:#000;
+font-size: 60px;
+}
+
+#titre p:nth-child(3){
+color:#bf3a17;
+font-size: 50px;
+margin-left: 0px;
+}
+
+#titre p:nth-child(4){
+color: #000;
+font-size: 30px;
+margin-left: 0px;
+}
+
+#valdis-mickman{
+    display: inline-block;
+    justify-content:center;
+    align-items: center;
+}
+#form{
+    background-color: #bf3a17;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+  /*
+.people-img{
+transition: .5s;
+animation: slideDown 10s;
+
+.people-img:hover{
+    transform: : scale: (1.1) rotate: (10deg);
+}
+
+}
+@keyframes slideDown{
+    from {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+*
+footer{  
+    background-color: #dbd5bb;
+}
+footer div{
+    justify-content: space-between;    
+}
+*/
+
+
+
